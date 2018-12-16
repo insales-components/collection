@@ -1,0 +1,22 @@
+{
+  "name": "collection",
+  "version": "1.0.0",
+  "description": "Страница каталога",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/collection",
+  "props": {
+    "common": false,
+    "liquid": true
+  },
+  "dependencies": {
+    "ui-notice": "https://github.com/insales-components/ui-notice",
+    "pagination": "https://github.com/insales-components/pagination",
+    "collection_order": "https://github.com/insales-components/collection_order",
+    "declination": "https://github.com/insales-components/declination",
+    "breadcrumb": "https://github.com/insales-components/breadcrumb",
+    "catalog_filter": "https://github.com/insales-components/catalog_filter",
+    "card": "https://github.com/insales-components/card",
+    "cellsio": "https://github.com/insales-components/cellsio"
+  }
+}
