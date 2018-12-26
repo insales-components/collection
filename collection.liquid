@@ -50,11 +50,11 @@
             {% if collection.products.size == 0 %}
             <div class="collection-notice" data-collection-notice="">
               {% if collection.current_characteristics.size > 0 or price_min or price_max or collection.current_option_values.size > 0 %}
-              <div class="notice notice-warning">
+              <div class="notice is-warning">
                 Простите, но по выбранным параметрам мы ничего не нашли. Попробуйте выбрать <a href="{{ collection.url }}">другие значения</a>.
               </div>
               {% else %}
-              <div class="notice notice-warning">
+              <div class="notice is-warning">
                 Простите, в данном разделе пока нет товаров. Мы работаем над этим.
               </div>
               {% endif %}
